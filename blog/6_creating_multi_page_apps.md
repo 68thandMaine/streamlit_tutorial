@@ -1,0 +1,1 @@
+Streamlit can parse a directory structure for specific names. One of the directory names is called `pages/` and any `.py` file listed within this directory will be added as a new page in the app. The new pages are accessible via options in the sidebar
