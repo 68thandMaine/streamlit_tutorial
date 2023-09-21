@@ -1,4 +1,4 @@
-In this tutorial, we will create an interactive app that allows you to explore the public Uber dataset for pickups and drop-offs in New York City. We'll start by setting up the main infrastructure of the app. This involves creating two essential directories: src/ and app/. The src directory will contain constant data and utility functions, while the app directory will house our Streamlit code.
+In this tutorial, we will create an interactive app that allows you to explore the public Uber dataset for pickups and drop-offs in New York City. We'll start by setting up the main infrastructure of the app. This involves creating two essential directories: app/src/ and app/pages. The src directory will contain constant data and utility functions, while the app directory will house our Streamlit code.
 
 Since this tutorial is part of a larger repository dedicated to exploring Streamlit features, we'll organize our app using pages. Let's begin by creating a new file in the pages/ directory and naming it 2_uber_pickups.py. This file will serve as a page in the app's sidebar. Don't forget to activate your Poetry shell and set your IDE interpreter to the Poetry environment for seamless development.
 
@@ -16,7 +16,7 @@ Next, we'll need to fetch the Uber dataset. To do this, we'll require two key co
 In your terminal, navigate to the project directory and execute the following command to create a constants.py file under the src/ directory:
 
 ```bash
-$ touch src/constants.py`
+$ touch app/src/constants.py`
 ```
 
 Then in the `uber_pickup.py` file create a method that will load the data.
