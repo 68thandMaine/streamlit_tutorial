@@ -5,3 +5,4 @@ DATA_URL = (
 MAPPING_DEMO_URL = (
     "http://raw.githubusercontent.com/streamlit/example-data/master/hello/v1/"
 )
+AWS_BUCKET_URL = "http://streamlit-demo-data.s3-us-west-2.amazonaws.com"
